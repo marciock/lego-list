@@ -1,0 +1,60 @@
+.player{
+    width: 10rem;
+    
+}
+.point{
+    width: 4rem;
+}
+.piece-height{
+    height: 4rem;
+}
+.lego-height{
+    height: 3rem;
+}
+.lego-wrapper{
+    display: flex;
+    grid-template-columns: 6fr 3fr;
+}
+.lego-keys{
+    display: flex;
+    grid-template-columns: repeat(auto-fit,minmax(2fr,6fr));
+}
+.border-top-1{
+    border-top:1px solid #000 !important;
+    padding: 20px;
+}
+.border-right-1{
+    border-right:1px solid #000 !important;
+}
+.border-bottom-1{
+    border-bottom:1px solid #000 !important;
+    padding: 20px;
+}
+.border-all{
+    border: 1px solid #000 !important;
+    padding: 20px;
+    margin-bottom: 5px;
+}
+.width-header{
+    width: 13%;
+    text-align: center;
+}
+.header-wrapper{
+    display: flex;
+    grid-template-columns:repeat(auto-fit,minmax(12fr));
+}
+/*.header-wrapper :nth-of-type(even) {
+    background-color: lightgreen;
+}*/
+
+
+.lego-space{
+    padding: 20px;
+}
+.toast-message{
+    position: absolute;
+    z-index: 9;
+
+}
+
+    
